@@ -1,0 +1,9 @@
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'cv2'
+Traceback (most recent call last):
+  File "face.py", line 111, in <module>
+    gpu_calculation(train_data)
+  File "face.py", line 57, in gpu_calculation
+    va_eig, ve_eig =linalg.eig(cov_mat, 'V', 'N')
+  File "/tools/python/2.7.12/lib/python2.7/site-packages/skcuda/linalg.py", line 2164, in eig
+    raise NotImplementedError('CULA not installed')
+NotImplementedError: CULA not installed
